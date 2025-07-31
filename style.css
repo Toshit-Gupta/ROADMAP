@@ -1,0 +1,8 @@
+body {
+  background-image: url('background.jpg.jpg'); /* Make sure this path is correct */
+  background-size: cover;             /* Scales image to fill the screen */
+  background-repeat: no-repeat;       /* Prevents tiling */
+  background-position: center center; /* Keeps it nicely centered */
+  background-attachment: fixed; /* 💡 Keeps image fixed during scroll */                      /* Ensures full viewport height */
+  margin: 0;                          /* Removes default body margin */
+}
